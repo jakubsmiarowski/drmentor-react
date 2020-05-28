@@ -1,0 +1,34 @@
+.header-wrapper {
+    width: 100%;
+    padding-top: 30px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.header-links {
+    padding: 0 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-links-item {
+    margin: 0 30px;
+    list-style: none;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin: 0 20px;
+}

@@ -1,0 +1,32 @@
+.grid-4 {
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 6rem;
+}
+
+.service-info {
+    padding: 4rem 0.5rem;
+    color: black;
+}
+
+.service-info h3 {
+    text-align: center;
+}
+
+.service-info i {
+    color: #0abde3;
+}
+
+.service-info a {
+    text-decoration: underline;
+    color: black;
+}
+
+.service-info ul {
+    padding-inline-start: 0;
+}
+
+.service-info ul li {
+    list-style-type: none;
+}
