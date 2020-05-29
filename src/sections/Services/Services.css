@@ -10,12 +10,14 @@
     color: black;
 }
 
-.service-info h3 {
-    text-align: center;
+.service-info svg {
+    font-size: 40px;
+    color: #0abde3;
+    display: none;
 }
 
-.service-info i {
-    color: #0abde3;
+.service-info h3 {
+    text-align: center;
 }
 
 .service-info a {
@@ -29,4 +31,59 @@
 
 .service-info ul li {
     list-style-type: none;
+}
+
+@media (max-width: 1280px) {
+    .grid-4 {
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0;
+    }
+    .service-info {
+        padding: 2rem 0.5rem;
+    }
+    .service-info p,
+    .service-info ul {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero span {
+        left: 8%;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-4 {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        padding: 0 3rem;
+    }
+    .service-info {
+        padding: 2rem 0.5rem;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .hands {
+        margin-bottom: 20px;
+    }
+    .service-info svg {
+        display: flex;
+        margin-right: 10px;
+    }
+    .service-info p,
+    .service-info ul {
+        display: none
+    }
 }

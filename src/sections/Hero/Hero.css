@@ -18,3 +18,29 @@
     font-size: 3rem;
     color: #0abde3;
 }
+
+@media (max-width: 1280px) {
+    .hero span {
+        left: 13%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero span {
+        left: 11%;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero span {
+        left: 8%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero span {
+        font-size: 20px;
+    }
+}
