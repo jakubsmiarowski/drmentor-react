@@ -147,6 +147,12 @@
     font-size: 13px;
 }
 
+@media (max-width: 1064px) {
+    .testimonial-wrapper p {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 700px) {
     .testimonial-item {
         padding: 25px 35px;

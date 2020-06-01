@@ -43,6 +43,11 @@ class Clients extends Component {
             prevArrow: <SamplePrevArrow />,
             nextArrow: <SampleNextArrow />,
             responsive: [{
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },{
                 breakpoint: 991,
                 settings:{
                     slidesToShow: 1,
