@@ -2,6 +2,8 @@
     text-align: justify;
     margin: auto;
     padding: 4rem 6rem;
+    background: rgb(26, 31, 68);
+    background: linear-gradient(90deg, rgba(26, 31, 68, 1) 0%, rgba(34, 48, 126, 1) 82%);
 }
 
 .arturito {
@@ -30,6 +32,14 @@
     font-family: inherit;
     font-size: inherit;
     font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .video {
+        height: 300px;
+        width: 95%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 480px) {

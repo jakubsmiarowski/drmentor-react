@@ -27,7 +27,7 @@ class About extends Component {
     render() {
         const { showHideText } = this.state;
         return (
-            <div className="content-wrapper bg-dark">
+            <div className="content-wrapper bg-dark" id="about">
                 <div className="content-video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/_Q-nI1FRHnE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className="video"></iframe>
                 </div>

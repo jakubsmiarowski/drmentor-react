@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
 import './Hero.css';
-
-import Header from '../../components/Header/Header';
+import teacher from '../../assets/img/teacher.svg'
 import Typed from 'react-typed';
 
 class Hero extends Component {
     render() {
         return (
-            <div className="hero">
-                <Header />
+            <div className="hero" id="hero">
+                <img src={teacher} alt="teacher" className="teacher" />
                 <Typed 
                     strings={[
                         'Diagnoza i szybka pomoc',

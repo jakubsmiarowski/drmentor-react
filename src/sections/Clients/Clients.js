@@ -77,7 +77,7 @@ class Clients extends Component {
             
         });
         return (
-            <div className="slick">
+            <div className="slick" id="clients">
                 <div className="slick-container">
                     <div className="section-title-container">
                         <h5 className="section-subtitle">Moje rekomendacje</h5>

@@ -7,6 +7,7 @@ import { faFacebook, faLinkedin, faYoutube } from '@fortawesome/fontawesome-free
 const Footer = () => {
     return (
         <div className="socials bg-dark">
+            <a name="contact"></a>
             <div className="socials-container">
                 <div className="socials-contact-info-left">
                 <p>Napisz do <a href="mailto:artur@doctormentor.pl">artur@doctormentor.pl</a> lub zadzwoń na <a href="tel:+48796310454">+48 796 310 454</a></p>
