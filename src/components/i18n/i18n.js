@@ -5,22 +5,22 @@ import translationEN from '../../assets/data/translations.json';
 
 // the translations
 const resources = {
-  en: {
-    translation: translationEN
-  }
+    en: {
+        translation: translationEN
+    }
 };
 
 i18n
-  .use(reactI18nextModule) // passes i18n down to react-i18next
-  .init({
-    resources,
-    lng: "en",
+    .use(reactI18nextModule) // passes i18n down to react-i18next
+    .init({
+        resources,
+        lng: "pl",
 
-    keySeparator: false, // we do not use keys in form messages.welcome
+        keySeparator: false, // we do not use keys in form messages.welcome
 
-    interpolation: {
-      escapeValue: false // react already safes from xss
-    }
-  });
+        interpolation: {
+            escapeValue: false // react already safes from xss
+        }
+    });
 
 export default i18n;

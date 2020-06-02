@@ -107,6 +107,9 @@
         text-align: center;
         margin: 0 auto;
     }
+    .socials-contact-arrow svg {
+        font-size: 50px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -124,5 +127,10 @@
     }
     .socials-contact-info-right ul li {
         margin: 0;
+    }
+    .socials-contact-arrow svg {
+        right: 10px;
+        top: -25px;
+        font-size: 35px;
     }
 }

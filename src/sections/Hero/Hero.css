@@ -39,7 +39,15 @@
 @media (max-width: 991px) {
     .hero span {
         left: 11%;
+        bottom: 5%;
         font-size: 30px;
+    }
+    .hero img {
+        position: static;
+        display: block;
+        margin: 90px auto 0;
+        height: 400px;
+        width: 400px;
     }
 }
 
@@ -50,7 +58,8 @@
 }
 
 @media (max-width: 480px) {
-    .hero span {
+    .hero span>span {
+        left: 3%;
         font-size: 20px;
     }
 }

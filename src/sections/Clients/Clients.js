@@ -58,6 +58,7 @@ class Clients extends Component {
                 }
             }]
           };
+          
         let slickCarousel = testimonials.map(user=>{
             return(
                 <div className="testimonial" key={user.id}>
