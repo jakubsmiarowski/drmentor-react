@@ -54,7 +54,9 @@
     margin-top: 30px;
 }
 
-.header-translation-button button {
+.header-translation-button button {}
+
+.button {
     border: none;
     height: 50px;
     background: inherit;
@@ -63,6 +65,10 @@
     font-weight: 600;
     cursor: pointer;
     outline-style: none;
+}
+
+.active {
+    border-bottom: 2px solid #ecf0f1;
 }
 
 @media (max-width: 991px) {

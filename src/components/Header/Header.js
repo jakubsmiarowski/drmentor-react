@@ -30,7 +30,7 @@ const Header = ({t}) => {
             <div className="header-translations">
                 <div className="header-translation-button">
                     <button 
-                        style={{ borderBottom: active ? "none" : "2px solid #ecf0f1" }}
+                        className={active ? 'button' : 'button active'}
                         onClick={() => {
                             changeLanguage('pl')
                             toggle()
@@ -38,7 +38,7 @@ const Header = ({t}) => {
                 </div>
                 <div className="header-translation-button">
                     <button 
-                        style={{ borderBottom: active ? "2px solid #ecf0f1" : "none" }}
+                        className={active ? 'button active' : 'button'}
                         onClick={() => {
                             changeLanguage('en')
                             toggle()
