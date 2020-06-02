@@ -7,6 +7,7 @@
     width: 100%;
     background: rgb(26, 31, 68);
     background: linear-gradient(90deg, rgba(26, 31, 68, 1) 0%, rgba(34, 48, 126, 1) 82%);
+    position: relative;
 }
 
 .socials p {
@@ -67,6 +68,13 @@
     text-decoration: none;
     color: white;
     transition: 2s;
+}
+
+.socials-contact-arrow svg {
+    position: absolute;
+    top: -35px;
+    right: 40px;
+    font-size: 50px;
 }
 
 @media (max-width: 1100px) {

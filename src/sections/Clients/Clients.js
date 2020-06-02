@@ -3,6 +3,7 @@ import './Clients.css';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft,faAngleRight } from '@fortawesome/fontawesome-free-solid';
 
@@ -30,7 +31,9 @@ function SampleNextArrow(props) {
   }
 
 class Clients extends Component {
+
     render() {
+        
         const settings = {
             speed: 500,
             slidesToShow: 3,
@@ -93,4 +96,4 @@ class Clients extends Component {
 }
 
 
-export default Clients
+export default Clients;

@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 
+import { withNamespaces } from 'react-i18next';
+
 import Hero from './sections/Hero/Hero';
 import Services from './sections/Services/Services';
 import About from './sections/About/About';
@@ -9,7 +11,7 @@ import Footer from './sections/Contact/Contact';
 import Header from './components/Header/Header';
 
 
-function App() {
+function App({ t }) {
   return (
     <div className="App">
       <Header />
@@ -22,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default withNamespaces()(App);

@@ -13,7 +13,7 @@
 
 .header-links {
     padding: 0 6rem;
-    margin-top: 35px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -41,6 +41,27 @@
 .logo {
     height: 90px;
     width: 90px;
+}
+
+.header-translations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 6rem;
+}
+
+.header-translation-button {
+    margin-top: 30px;
+}
+
+.header-translation-button button {
+    border: none;
+    height: 50px;
+    background: inherit;
+    color: #ecf0f1;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 @media (max-width: 480px) {
