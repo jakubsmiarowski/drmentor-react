@@ -31,8 +31,13 @@
 
 @media (max-width: 1280px) {
     .hero span {
+        bottom: -25%;
         left: 13%;
         font-size: 40px;
+    }
+    .hero img {
+        top: 0;
+        right: 20%;
     }
 }
 
