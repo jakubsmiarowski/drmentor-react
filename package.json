@@ -1,46 +1,46 @@
 {
-  "name": "drmentor-react",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@fortawesome/fontawesome-free-brands": "^5.0.13",
-    "@fortawesome/fontawesome-free-solid": "^5.0.13",
-    "@fortawesome/fontawesome-svg-core": "^1.2.28",
-    "@fortawesome/free-solid-svg-icons": "^5.13.0",
-    "@fortawesome/react-fontawesome": "^0.1.9",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "i18next": "^19.4.5",
-    "react": "^16.13.1",
-    "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^16.13.1",
-    "react-gsap": "^2.2.1",
-    "react-i18next": "^9.0.10",
-    "react-scripts": "3.4.1",
-    "react-slick": "^0.26.1",
-    "react-typed": "^1.2.0",
-    "slick-carousel": "^1.8.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "drmentor-react",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-free-brands": "^5.0.13",
+        "@fortawesome/fontawesome-free-solid": "^5.0.13",
+        "@fortawesome/fontawesome-svg-core": "^1.2.28",
+        "@fortawesome/free-solid-svg-icons": "^5.13.0",
+        "@fortawesome/react-fontawesome": "^0.1.9",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "i18next": "^19.4.5",
+        "react": "^16.13.1",
+        "react-anchor-link-smooth-scroll": "^1.0.12",
+        "react-dom": "^16.13.1",
+        "react-gsap": "^2.2.1",
+        "react-i18next": "^9.0.10",
+        "react-scripts": "3.4.1",
+        "react-slick": "^0.26.1",
+        "react-typed": "^1.2.0",
+        "slick-carousel": "^1.8.1"
+    },
+    "scripts": {
+        "start": "CI= react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
